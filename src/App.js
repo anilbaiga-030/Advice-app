@@ -16,7 +16,11 @@ class App extends React.Component {
         this.setState({ advice });
       })
       .catch((error) => {
-        console.log(error);
+        if (error) {
+          this.setState({
+            advice: "Oops!please check your connection!",
+          });
+        }
       });
   };
 

@@ -28,15 +28,15 @@ body {
   flex-direction: column;
   border-radius: 25px;
   padding: 2%;
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px 5px;
   opacity: 0.79;
 }
 
 .heading {
   display: flex;
   align-items: center;
-  height: 580px;
-  font-weight: 600;
+  height: 380px;
+  font-weight: 550;
   font-family: "Spartan", sans-serif;
 }
 
@@ -52,15 +52,16 @@ body {
   align-items: center;
   cursor: pointer;
   text-transform: uppercase;
-  height: 200px;
+  height: 220px;
   width: 210px;
   opacity: 1;
-  background-color: #ffffff;
+  background-color: #f5f6f8;
   border: 1px solid rgba(20, 78, 177, 0.6);
+  box-shadow: 2px 2px 4px;
 }
 
 .btn span {
-  color: #164ca7;
+  color: #1955bd;
   font-size: 15px;
   font-weight: 580;
   letter-spacing: 0.7px;
@@ -113,7 +114,19 @@ body {
 
 @media only screen and (max-width: 600px) {
   .card {
-    width: 80%;
-    height: 30%;
+    width: 70%;
+    height: 25%;
+    box-shadow: 5px 8px 7px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .btn {
+    width: 150px;
+    height: 120px;
+    box-shadow: 2px 2px 4px;
+  }
+  .btn span {
+    font-size: 12px;
   }
 }
