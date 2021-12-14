@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "advice2you192.png",
+      "src": "advice192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "advice2you512.png",
+      "src": "advice512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#82BDF3",
-  "background_color": "#B5D5F2"
+  "theme_color": "#B5D5F2",
+  "background_color": "#F1F5F9"
 }
